@@ -1,1 +1,3 @@
-
+* F-4.1 Selección de envío y datos de facturación: Formulario para ingresar o seleccionar la dirección de entrega guardada y datos de contacto.
+ * F-4.2 Integración de pasarelas de pago: Selección e integración con métodos de pago (Tarjetas de crédito/débito, PayPal y PSE).
+ * F-4.3 Confirmación de compra: Generación automática del resumen de orden y envío de correo electrónico de confirmación con el comprobante de compra.
