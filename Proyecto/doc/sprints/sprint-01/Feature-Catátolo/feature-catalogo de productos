@@ -1,7 +1,4 @@
 * F-1.1 Visualización de catálogo: Listado de gorras con imagen principal, nombre, marca y precio base.
- * F-1.2 Filtrado y búsqueda: Búsqueda por palabra clave y filtros combinables (categoría, marca, rango de precio, color y talla).
- * F-1.3 Detalle de producto: Vista individual con galería de imágenes, descripción, selector de variantes (talla/color) y visualizador de stock en tiempo real.
- * F-1.4 Gestión de inventario (Admin): Módulo para crear, editar, ocultar o eliminar productos, asignando stock por cada variante.
 
 HU-1.1 - Visualización del Catálogo de Productos
 
@@ -27,6 +24,8 @@ Al hacer clic en una tarjeta, debe redirigir a la vista detallada del producto.
 
 Carga inicial optimizada mediante paginación o scroll infinito.
 
+ * F-1.2 Filtrado y búsqueda: Búsqueda por palabra clave y filtros combinables (categoría, marca, rango de precio, color y talla).
+
 HU-1.2 - Búsqueda y Filtrado de Productos
 
 Código Requerimiento: F-1.2
@@ -48,6 +47,8 @@ Barra de búsqueda por texto que consulte nombre y descripción.
 Filtros combinables: Categoría, Marca, Rango de Precio, Color y Talla.
 
 Contador de resultados dinámico y botón para limpiar todos los filtros.
+
+ * F-1.3 Detalle de producto: Vista individual con galería de imágenes, descripción, selector de variantes (talla/color) y visualizador de stock en tiempo real.
 
 HU-1.3 - Vista Detallada de Producto y Variantes
 
@@ -72,6 +73,8 @@ Selectores dinámicos para variantes (Talla y Color).
 Indicador de stock actualizado dinámicamente según la variante seleccionada.
 
 Si una variante no tiene stock, deshabilitar la opción o mostrar "Agotado" y bloquear el botón "Agregar al carrito".
+
+ * F-1.4 Gestión de inventario (Admin): Módulo para crear, editar, ocultar o eliminar productos, asignando stock por cada variante.
 
 HU-1.4 - Módulo Admin: Gestión de Productos e Inventario
 
