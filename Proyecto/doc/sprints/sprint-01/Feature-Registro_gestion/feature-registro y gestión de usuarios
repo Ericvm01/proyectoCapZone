@@ -2,3 +2,93 @@
  * F-2.2 Recuperación de acceso: Flujo de "Olvidé mi contraseña" con envío de enlace/código de restablecimiento por correo.
  * F-2.3 Perfil de cliente: Edición de datos personales (nombre, teléfono) y cambio de contraseña.
  * F-2.4 Libreta de direcciones: Creación, edición y eliminación de múltiples direcciones de envío con selección de dirección predeterminada.
+
+HU-2.1 - Autenticación de Usuarios
+
+Código Requerimiento: F-2.1
+
+Rol: Usuario / Cliente
+
+Descripción:
+
+Como usuario de la plataforma,
+
+quiero registrarme con mi correo y contraseña e iniciar sesión con validación de credenciales,
+
+para acceder a mis datos guardados y realizar compras de forma segura.
+
+Criterios de Aceptación:
+
+El formulario de registro debe validar formatos válidos de correo electrónico y requerir contraseñas seguras (mínimo 8 caracteres, al menos un número y una mayúscula).
+
+El sistema no debe permitir registros con correos ya existentes.
+
+El formulario de inicio de sesión debe validar las credenciales ingresadas.
+
+En caso de error en el login, debe mostrar un mensaje genérico ("Credenciales inválidas") por seguridad.
+
+HU-2.2 - Recuperación de Contraseña
+
+Código Requerimiento: F-2.2
+
+Rol: Usuario registrado
+
+Descripción:
+
+Como usuario que olvidó su contraseña,
+
+quiero solicitar un enlace de restablecimiento por correo electrónico,
+
+para recuperar el acceso a mi cuenta.
+
+Criterios de Aceptación:
+
+Opción "¿Olvidaste tu contraseña?" en el formulario de inicio de sesión.
+
+Envío de correo con token temporal seguro (expira en 15-30 min).
+
+Formulario dedicado para definir y confirmar la nueva clave.
+
+HU-2.3 - Gestión del Perfil del Cliente
+
+Código Requerimiento: F-2.3
+
+Rol: Cliente autenticado
+
+Descripción:
+
+Como cliente autenticado,
+
+quiero editar mis datos personales y actualizar mi contraseña,
+
+para mantener mi cuenta actualizada y segura.
+
+Criterios de Aceptación:
+
+Edición de datos personales (Nombre, Apellidos, Teléfono).
+
+Formulario de cambio de clave (requiere clave actual + confirmación de nueva clave).
+
+Confirmación visual tras cambios guardados con éxito.
+
+HU-2.4 - Libreta de Direcciones de Envío
+
+Código Requerimiento: F-2.4
+
+Rol: Cliente autenticado
+
+Descripción:
+
+Como cliente autenticado,
+
+quiero gestionar múltiples direcciones de entrega y definir una predeterminada,
+
+para agilizar mis compras futuras.
+
+Criterios de Aceptación:
+
+CRUD completo de direcciones en el panel del cliente.
+
+Marcar una dirección como "Predeterminada".
+
+Formulario con validación de: Alias, Dirección, Ciudad, Departamento/Estado, Código Postal y Teléfono.
