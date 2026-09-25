@@ -1,4 +1,71 @@
- * F-1.1 Visualización de catálogo: Listado de gorras con imagen principal, nombre, marca y precio base.
- * F-1.2 Filtrado y búsqueda: Búsqueda por palabra clave y filtros combinables (categoría, marca, rango de precio, color y talla).
- * F-1.3 Detalle de producto: Vista individual con galería de imágenes, descripción, selector de variantes (talla/color) y visualizador de stock en tiempo real.
- * F-1.4 Gestión de inventario (Admin): Módulo para crear, editar, ocultar o eliminar productos, asignando stock por cada variante.
+HU-1.1 - Visualización del Catálogo de Productos
+
+Código Requerimiento: F-1.1
+
+Rol: Cliente / Visitante
+
+Descripción:
+
+Como cliente o visitante de la tienda,
+
+quiero ver un listado claro de las gorras disponibles con su imagen principal, nombre, marca y precio base,
+
+para explorar la oferta de productos y decidir cuáles me interesan.
+
+Criterios de Aceptación:
+
+El catálogo debe desplegarse en formato de rejilla (grid) responsive.
+
+Cada tarjeta de producto debe mostrar: imagen principal, nombre completo, marca y precio base.
+
+Al hacer clic en una tarjeta, debe redirigir a la vista detallada del producto.
+
+Carga inicial optimizada mediante paginación o scroll infinito.
+
+HU-1.2 - Vista Detallada de Producto y Variantes
+
+Código Requerimiento: F-1.2
+
+Rol: Cliente / Visitante
+
+Descripción:
+
+Como cliente de la tienda,
+
+quiero ver la información detallada de una gorra, incluyendo galería, descripción, selector de variantes y disponibilidad de stock,
+
+para conocer sus características exactas y seleccionar la opción deseada.
+
+Criterios de Aceptación:
+
+Vista detallada con galería de imágenes (con zoom), nombre, marca, precio y descripción.
+
+Selectores dinámicos para variantes (Talla y Color).
+
+Indicador de stock actualizado dinámicamente según la variante seleccionada.
+
+Si una variante no tiene stock, deshabilitar la opción o mostrar "Agotado" y bloquear el botón "Agregar al carrito".
+
+HU-1.3 - Módulo Admin: Gestión de Productos e Inventario
+
+Código Requerimiento: F-1.3
+
+Rol: Administrador del sistema
+
+Descripción:
+
+Como administrador del sistema,
+
+quiero crear, editar, ocultar o eliminar productos, asignando stock por variante,
+
+para mantener actualizado el catálogo de la tienda en tiempo real.
+
+Criterios de Aceptación:
+
+Crear productos con: nombre, descripción, marca, categoría, precio e imágenes.
+
+Crear y asociar variantes (color/talla) con su respectivo stock.
+
+Permitir cambiar el estado a "Oculto" sin borrarlo de la base de datos.
+
+Edición y eliminación (lógica o física) de productos existentes.
