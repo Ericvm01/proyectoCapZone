@@ -1,7 +1,4 @@
 * F-2.1 Autenticación de usuarios: Registro con correo/contraseña e inicio de sesión con validación de credenciales.
- * F-2.2 Recuperación de acceso: Flujo de "Olvidé mi contraseña" con envío de enlace/código de restablecimiento por correo.
- * F-2.3 Perfil de cliente: Edición de datos personales (nombre, teléfono) y cambio de contraseña.
- * F-2.4 Libreta de direcciones: Creación, edición y eliminación de múltiples direcciones de envío con selección de dirección predeterminada.
 
 HU-2.1 - Autenticación de Usuarios
 
@@ -27,6 +24,8 @@ El formulario de inicio de sesión debe validar las credenciales ingresadas.
 
 En caso de error en el login, debe mostrar un mensaje genérico ("Credenciales inválidas") por seguridad.
 
+ * F-2.2 Recuperación de acceso: Flujo de "Olvidé mi contraseña" con envío de enlace/código de restablecimiento por correo.
+
 HU-2.2 - Recuperación de Contraseña
 
 Código Requerimiento: F-2.2
@@ -49,6 +48,8 @@ Envío de correo con token temporal seguro (expira en 15-30 min).
 
 Formulario dedicado para definir y confirmar la nueva clave.
 
+ * F-2.3 Perfil de cliente: Edición de datos personales (nombre, teléfono) y cambio de contraseña.
+
 HU-2.3 - Gestión del Perfil del Cliente
 
 Código Requerimiento: F-2.3
@@ -70,6 +71,9 @@ Edición de datos personales (Nombre, Apellidos, Teléfono).
 Formulario de cambio de clave (requiere clave actual + confirmación de nueva clave).
 
 Confirmación visual tras cambios guardados con éxito.
+
+ * F-2.4 Libreta de direcciones: Creación, edición y eliminación de múltiples direcciones de envío con selección de dirección predeterminada.
+
 
 HU-2.4 - Libreta de Direcciones de Envío
 
