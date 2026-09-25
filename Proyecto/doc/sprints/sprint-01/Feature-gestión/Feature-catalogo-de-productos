@@ -1,4 +1,0 @@
-* F-1.1 Visualización de catálogo: Listado de gorras con imagen principal, nombre, marca y precio base.
- * F-1.2 Filtrado y búsqueda: Búsqueda por palabra clave y filtros combinables (categoría, marca, rango de precio, color y talla).
- * F-1.3 Detalle de producto: Vista individual con galería de imágenes, descripción, selector de variantes (talla/color) y visualizador de stock en tiempo real.
- * F-1.4 Gestión de inventario (Admin): Módulo para crear, editar, ocultar o eliminar productos, asignando stock por cada variante.
