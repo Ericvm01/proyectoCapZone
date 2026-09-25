@@ -1,6 +1,4 @@
 * F-3.1 Operaciones básicas del carrito: Agregar productos indicando variante (talla/color), modificar cantidades y eliminar ítems.
- * F-3.2 Persistencia del carrito: Guardado del carrito en la sesión del usuario para conservar los ítems al navegar o volver a iniciar sesión.
- * F-3.3 Resumen de costos: Cálculo automático e inmediato de subtotales, impuestos y desgloses de precio según la cantidad seleccionada.
 
 HU-3.1 - Operaciones Básicas del Carrito
 
@@ -24,6 +22,8 @@ Validar que la cantidad no exceda el stock real.
 
 Controles para incrementar, decrementar o eliminar ítems en el carrito.
 
+ * F-3.2 Persistencia del carrito: Guardado del carrito en la sesión del usuario para conservar los ítems al navegar o volver a iniciar sesión.
+
 HU-3.2 - Persistencia del Carrito de Compras
 
 Código Requerimiento: F-3.2
@@ -45,6 +45,8 @@ Persistencia en localStorage/cookies para usuarios invitados.
 Vinculación del carrito a la base de datos para usuarios autenticados.
 
 Fusión automática (merge) de carritos al pasar de visitante a usuario autenticado.
+
+ * F-3.3 Resumen de costos: Cálculo automático e inmediato de subtotales, impuestos y desgloses de precio según la cantidad seleccionada.
 
 HU-3.3 - Resumen y Cálculo de Costos
 
