@@ -1,1 +1,4 @@
-
+* F-2.1 Autenticación de usuarios: Registro con correo/contraseña e inicio de sesión con validación de credenciales.
+ * F-2.2 Recuperación de acceso: Flujo de "Olvidé mi contraseña" con envío de enlace/código de restablecimiento por correo.
+ * F-2.3 Perfil de cliente: Edición de datos personales (nombre, teléfono) y cambio de contraseña.
+ * F-2.4 Libreta de direcciones: Creación, edición y eliminación de múltiples direcciones de envío con selección de dirección predeterminada.
