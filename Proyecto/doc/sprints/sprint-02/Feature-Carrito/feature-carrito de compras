@@ -1,1 +1,3 @@
-
+* F-3.1 Operaciones básicas del carrito: Agregar productos indicando variante (talla/color), modificar cantidades y eliminar ítems.
+ * F-3.2 Persistencia del carrito: Guardado del carrito en la sesión del usuario para conservar los ítems al navegar o volver a iniciar sesión.
+ * F-3.3 Resumen de costos: Cálculo automático e inmediato de subtotales, impuestos y desgloses de precio según la cantidad seleccionada.
